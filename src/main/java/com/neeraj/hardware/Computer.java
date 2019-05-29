@@ -1,4 +1,8 @@
 package com.neeraj.hardware;
 
-public class Computer {
+import com.neeraj.other.IDisplay;
+
+public abstract class Computer implements IDisplay
+{
+
 }
